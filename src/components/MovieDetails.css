@@ -1,0 +1,52 @@
+/* src/components/MovieDetails.css */
+.movie-details-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    
+  }
+  
+  .movie-title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .movie-overview {
+    margin-bottom: 20px;
+  }
+  
+  .movie-details {
+    margin-top: 20px;
+  }
+  
+  .movie-details p {
+    margin-bottom: 10px;
+  }
+  
+  .cast-section {
+    margin-top: 20px;
+  }
+  
+  .cast-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .cast-list li {
+    margin-bottom: 5px;
+    font-style: italic;
+  }
+  
+  @media (max-width: 768px) {
+    .movie-details-container {
+      padding: 10px;
+    }
+  
+    .movie-title {
+      font-size: 1.5rem;
+    }
+  }
+  
