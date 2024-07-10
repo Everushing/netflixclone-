@@ -1,0 +1,25 @@
+/* src/components/Header.css */
+.header {
+    background-color: #111;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header__logo {
+    height: 50px;
+    object-fit: contain;
+  }
+  
+  .header__avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .header__avatar:hover {
+    opacity: 0.8;
+  }
+  

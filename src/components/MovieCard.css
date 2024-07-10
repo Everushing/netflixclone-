@@ -1,0 +1,29 @@
+/* src/components/MovieCard.css */
+.movie-card {
+    background-color: #333;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .movie-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .movie-card__poster {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .movie-card__info {
+    padding: 10px;
+  }
+  
+  .movie-card__info h3 {
+    margin: 0;
+    font-size: 16px;
+    color: #fff;
+  }
+  
